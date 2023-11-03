@@ -1,0 +1,36 @@
+/* El nav */
+.elNav {
+    background-color: rgb(51, 58, 64);
+}
+
+.navLinks {
+    margin-right: 4rem;
+}
+
+.links a {
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* los cards de descuento */
+.cartasDeDescuento:hover {
+    cursor: pointer;
+}
+
+.cartasDeDescuento {
+    text-decoration: none;
+}
+
+
+
+
+
+/* EL footer */
+.navAbajo {
+    background-color: rgb(29, 64, 84);
+    padding: 2rem;
+}
+
+.linksAbajo a {
+    text-decoration: none;
+}
