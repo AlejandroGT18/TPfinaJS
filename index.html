@@ -52,6 +52,29 @@
         </div>
     </nav>
 
+    <!-- ----------- Titulo fantasma -->
+
+    <!-- <div class="container">
+        <div class="row text-center mt-2">
+            <div class="col d-sm-none">
+                Venta
+                <div class="mb-2">
+                    <h1>VALOR DEL TICKET $200</h1>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <div class="container">
+        <div class="row text-center mt-2">
+            <div class="col">
+                Venta
+                <div class="mb-2">
+                    <h1>VALOR DEL TICKET $200</h1>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- ------------ Los cards de descuento ----------------- -->
     
@@ -87,15 +110,10 @@
 
     <!-- ----- El formulario --------- -->
 
-    <div class="text-center mt-4">
-        Venta
-        <div class="mb-2">
-            <h1>VALOR DEL TICKET $200</h1>
-        </div>
-    </div>
+    
     <div class="container">
         <form action="" method="post">
-            <div class="row ">
+            <div class="row mt-3">
                 <div class="col mt-2">
                     <input type="text" name="name" id="" placeholder="Nombre" class="form-control">
                 </div>
@@ -133,7 +151,7 @@
             </div>
             <div class="row mt-5">
                 <div class="col mt-2">
-                    <input type="reset" value="Borrar" class="form-control bg-success text-light">
+                    <input type="reset" value="Borrar" onclick="borrarTodo()" class="form-control bg-success text-light">
                 </div>
                 <div class="col-sm mt-2">
                     <input type="submit" value="Comprar" class="form-control bg-primary text-light">
@@ -145,7 +163,7 @@
 
     <!-- el foter -->
     
-    <div class="navAbajo mt-5">
+    <footer class="navAbajo mt-5">
         <div class="d-flex justify-content-center flex-wrap linksAbajo">
             <a class="text-light mx-" href="#">Preguntas frecuentes</a>
             <a class="text-light mx-5" href="#">Contáctanos</a>
@@ -155,7 +173,7 @@
             <a class="text-light mx-5" href="#">Privacidad</a>
             <a class="text-light mx-" href="#">Estudiantes</a>  
         </div>
-    </div>
+    </footer>
 
     <script src="principal.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
